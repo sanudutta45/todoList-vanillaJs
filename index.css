@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    max-width: 100%;
+    min-height: 100vh;
+    font-size: 30px !important;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: yellowgreen;
+}
+
+
+.header .form_wrapper{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header .form_wrapper input{
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.header .form_wrapper button{
+    height: 30px;
+    width: 70px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header .form_wrapper h1{
+    margin-right: 40px;
+}
+
+.header .search_box_wrapper input{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.main{
+    margin: 15px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 13px;
+    width: 30%;
+}
+
+li{
+    display: flex;
+    padding: 12px;
+    border: 1px solid black;
+    margin: 12px 0;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+li .text-container{
+    flex-grow: 1;
+}
+
+li .delete-button{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+}
